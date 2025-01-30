@@ -3,9 +3,28 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <title>Profile-card</title>
 </head>
 <body>
-   Documents
+    <div class="wrapper">
+        <div class="profile-card">
+            <div class="image-container">
+                <img src="./Images/profile-img.jpeg" alt="Profile Picture" data-testid="profilePicture">
+            </div>
+            <div class="text">
+                <strong data-testid="fullName">Ikechukwu T. Precious</strong>
+                <p data-testid="jobTitle">Frontend Developer</p>
+                <p data-testid="shortBio">I'm passionate about coding and sharing of knowledge with strong desire to be more acquainted with my skills. </p>
+                <p data-testid="currentLocation">Port Harcourt, Nigeria.</p>
+                <p data-testid="emailAddress">precious.tochi.ikechukwu@gmail.com</p>
+                <p data-testid="socialLinks">
+                    <a href="https://www.linkedin.com/in/ikechukwu-precious/" target="_blank">LinkedIn</a> | <a href="https://github.com/Precious-Tochukwu" target="_blank">GitHub</a>
+                </p>
+                <p data-testid="currentTimeUTC" id="currentTime"></p>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
 </body>
 </html>
