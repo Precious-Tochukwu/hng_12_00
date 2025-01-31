@@ -17,13 +17,31 @@
                 <div class="profile-content">
                     <div class="profile-child-content">
                         <strong data-testid="fullName">Ikechukwu Precious Tochukwu</strong>
-                        <p data-testid="jobTitle">Front-end Developer</p>
-                        <p data-testid="shortBio">I'm passionate about coding and sharing of knowledge with strong desire to be more acquainted with my skills.</p>
-                        <p data-testid="currentLocation">Port Harcourt, Nigeria.</p>
-                        <p data-testid="emailAddress">precious.tochi.ikechukwu@gmail.com</p>
-                        <p data-testid="socialLinks">
-                            <a href="https://www.linkedin.com/in/ikechukwu-precious/" target="_blank">LinkedIn</a>  | <a href="https://github.com/Precious-Tochukwu" target="_blank">GitHub</a>
-                        </p>
+                        <div class="current">
+                            <p data-testid="jobTitle">Front-end Developer</p>
+                            <div class="location">
+                                <div class="icon">
+                                    <img src="./icons/location.png" alt="">
+                                </div>
+                                <p data-testid="currentLocation">Port Harcourt, Nigeria.</p>
+                            </div>
+                        </div>
+                        <div class="bio">
+                            <h2>Bio</h2>
+                            <p data-testid="shortBio">I'm passionate about coding and sharing of knowledge with strong desire to be more acquainted with my skills.</p>
+                        </div>
+                        <p data-testid="emailAddress" class="email">precious.tochi.ikechukwu@gmail.com</p>
+                        <!-- <p data-testid="socialLinks" class="social-link">
+                            <a href="https://www.linkedin.com/in/ikechukwu-precious/" target="_blank"></a>  | <a href="https://github.com/Precious-Tochukwu" target="_blank">GitHub</a>
+                        </p> -->
+                        <div data-testid="socialLinks" class="social-link">
+                            <a href="https://www.linkedin.com/in/ikechukwu-precious/" target="_blank">
+                                <img src="./icons/linkedin-icon.png" alt="">
+                            </a>
+                            <a href="https://github.com/Precious-Tochukwu" target="_blank">
+                                <img src="./icons/github-icon.png" alt="">
+                            </a>
+                        </div>
                         <p data-testid="currentTimeUTC" id="currentTime"></p>
                     </div>
                 </div>
