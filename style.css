@@ -15,25 +15,6 @@
     --heading-color: #252423;
     --base: 1em;
 }
-/* For Webkit-based browsers (Chrome, Edge, Safari) */
-::-webkit-scrollbar {
-    width: .7em; /* Width of the scrollbar */
-}
-
-::-webkit-scrollbar-track {
-    background: transparent; /* Track color */
-    border-radius: 10px;
-}
-
-::-webkit-scrollbar-thumb {
-    background: var(--text-color); /* Scroll thumb color */
-    border-radius: 10px;
-}
-
-::-webkit-scrollbar-thumb:hover {
-    background: #555; /* Scroll thumb color on hover */
-}
-
 
 body {
     font-family: "Roboto", serif;
@@ -49,7 +30,7 @@ body {
     justify-content: center;
 }
 
-h1, h2, h3 {
+h1, h2 {
     margin-bottom: .25em;
     color: var(--heading-color);
     line-height: .9;
@@ -140,41 +121,6 @@ img {
     opacity: 0;
 }
 
-.profile_count {
-    display: flex;
-    gap: var(--base);
-}
-
-.profile_count p {
-    margin-bottom: 0;
-}
-
-.profile_count>div {
-    flex: 1 1 auto;
-}
-
-h3 {
-    font-size: 1.6em;
-    font-weight: 800;
-}
-
-button {
-    border: none;
-    padding: var(--base);
-    font: inherit;
-    font-weight: 500;
-    margin: calc(var(--base)*1.5) 0;
-    border-radius: .5em;
-    background-color: var(--text-color);
-    color: #ffda8b;
-    cursor: pointer;
-}
-
-button:hover {
-    background-color: var(--heading-color);
-    transition-duration: .1s;
-}
-
 .socials {
     display: flex;
     gap: .5em;
@@ -199,8 +145,35 @@ section p {
     font-weight: 400;
     font-size: 1.1em;
 }
-ul{
-    padding-left: 1em;
+
+.location {
+    display: flex;
+    gap: 5px;
+    padding-top: 10px;
+}
+
+.location p {
+    font-weight: 400;
+    font-size: 1.1em;;
+}
+
+/* For Webkit-based browsers (Chrome, Edge, Safari) */
+::-webkit-scrollbar {
+    width: .7em; /* Width of the scrollbar */
+}
+
+::-webkit-scrollbar-track {
+    background: transparent; /* Track color */
+    border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb {
+    background: var(--text-color); /* Scroll thumb color */
+    border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: #555; /* Scroll thumb color on hover */
 }
 
 
